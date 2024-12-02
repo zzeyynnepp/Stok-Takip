@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A366CCEE-8054-402A-BED6-2B5758E67121}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_1513_StokTakipProgramı</RootNamespace>
+    <AssemblyName>1513_StokTakipProgramı</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\Anasayfa.cs" />
+    <Compile Include="Model\Giriş.cs" />
+    <Compile Include="Model\Kategori.cs" />
+    <Compile Include="Model\Musteri.cs" />
+    <Compile Include="Model\Personel.cs" />
+    <Compile Include="Model\Satis.cs" />
+    <Compile Include="Model\Satis_detay.cs" />
+    <Compile Include="Model\Tedarik.cs" />
+    <Compile Include="Model\Urun.cs" />
+    <Compile Include="Model\Yetki.cs" />
+    <Compile Include="Pages\frmAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmAnasayfa.Designer.cs">
+      <DependentUpon>frmAnasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmGiris.Designer.cs">
+      <DependentUpon>frmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmMusteriIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmMusteriIslemleri.Designer.cs">
+      <DependentUpon>frmMusteriIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmKategoriIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmKategoriIslemleri.Designer.cs">
+      <DependentUpon>frmKategoriIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmPersonelIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmPersonelIslemleri.Designer.cs">
+      <DependentUpon>frmPersonelIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmSatisDetaylari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmSatisDetaylari.Designer.cs">
+      <DependentUpon>frmSatisDetaylari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmTedarikciIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmTedarikciIslemleri.Designer.cs">
+      <DependentUpon>frmTedarikciIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\frmUrunIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pages\frmUrunIslemleri.Designer.cs">
+      <DependentUpon>frmUrunIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pages\frmAnasayfa.resx">
+      <DependentUpon>frmAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmGiris.resx">
+      <DependentUpon>frmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmMusteriIslemleri.resx">
+      <DependentUpon>frmMusteriIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmKategoriIslemleri.resx">
+      <DependentUpon>frmKategoriIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmPersonelIslemleri.resx">
+      <DependentUpon>frmPersonelIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmSatisDetaylari.resx">
+      <DependentUpon>frmSatisDetaylari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmTedarikciIslemleri.resx">
+      <DependentUpon>frmTedarikciIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\frmUrunIslemleri.resx">
+      <DependentUpon>frmUrunIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\992651.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\875100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9926511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1828906.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

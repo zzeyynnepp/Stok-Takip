@@ -1,0 +1,10 @@
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\bin\Debug\1513_StokTakipProgramı.exe.config
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\bin\Debug\1513_StokTakipProgramı.exe
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\bin\Debug\1513_StokTakipProgramı.pdb
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\1513_StokTakipProgramı.csproj.AssemblyReference.cache
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\_1513_StokTakipProgramı.frmMusteriIslemleri.resources
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\_1513_StokTakipProgramı.Properties.Resources.resources
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\1513_StokTakipProgramı.csproj.GenerateResource.cache
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\1513_StokTakipProgramı.csproj.CoreCompileInputs.cache
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\1513_StokTakipProgramı.exe
+D:\Öğrenci Dosyaları\1513\1513_StokTakipProgramı\1513_StokTakipProgramı\obj\Debug\1513_StokTakipProgramı.pdb
